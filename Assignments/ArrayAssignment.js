@@ -72,12 +72,10 @@
         console.log ("Entered Branch is not found !!!")
     }  */
 
-// 9.Filter out Branches which have more than one 'o' without the filter method
+//9. Filter out Branches which have more than one 'o' without the filter method
+    let Company_Array1 = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"]
 
-
-
-
-
+    console.log (Company_Array1.indexOf("o"))
 
 
 //10. Sort the array using _sort()_ method
@@ -126,7 +124,37 @@
     console.log ("Hence Elements in ItBranches7 array are ==> " , ItBranches7)
 
 
+// Shopping cart add, remove, edit items
+
+    //add 'Meat' in the beginning of your shopping cart
+    const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey']
+    shoppingCart.unshift("Meat")
+    console.log (shoppingCart) 
+
+    //add Sugar at the end of you shopping cart
+    const shoppingCart1 = ['Milk', 'Coffee', 'Tea', 'Honey']
+    shoppingCart1.push("Meat")
+    console.log (shoppingCart1) 
+
+    //remove 'Honey' if you are allergic to honey
+    const shoppingCart2 = ['Milk', 'Coffee', 'Tea', 'Honey']
+    shoppingCart2.pop("Honey")
+    console.log (shoppingCart2) 
+
+    //modify Tea to 'Green Tea'
+    const shoppingCart3 = ['Milk', 'Coffee', 'Tea', 'Honey']
+    shoppingCart3[2] = "Green Tea"
+    console.log (shoppingCart3) 
+
+
     
+
+
+
+
+
+
+
 
 
 
