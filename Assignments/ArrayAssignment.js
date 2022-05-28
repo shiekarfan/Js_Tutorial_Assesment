@@ -129,25 +129,36 @@
     //add 'Meat' in the beginning of your shopping cart
     const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey']
     shoppingCart.unshift("Meat")
-    console.log (shoppingCart) 
+    console.log ("Added 'Meat' in the beginning ==>",shoppingCart) 
 
     //add Sugar at the end of you shopping cart
     const shoppingCart1 = ['Milk', 'Coffee', 'Tea', 'Honey']
-    shoppingCart1.push("Meat")
-    console.log (shoppingCart1) 
+    shoppingCart1.push("Sugar")
+    console.log ("Added Sugar at the end of you shopping cart ==>",shoppingCart1) 
 
     //remove 'Honey' if you are allergic to honey
     const shoppingCart2 = ['Milk', 'Coffee', 'Tea', 'Honey']
     shoppingCart2.pop("Honey")
-    console.log (shoppingCart2) 
+    console.log ("Removed 'Honey' because Im allergic ==>",shoppingCart2) 
 
     //modify Tea to 'Green Tea'
     const shoppingCart3 = ['Milk', 'Coffee', 'Tea', 'Honey']
     shoppingCart3[2] = "Green Tea"
-    console.log (shoppingCart3) 
+    console.log ("Modified Tea to 'Green Tea' ==>",shoppingCart3) 
 
 
+
+// First remove all the punctuations and change the string to array and count the number of words in the array
+
+    let text ='I love teaching and empowering people. I teach HTML, CSS, JS, React, Python.'
+
+    let words= text.split(' ')
     
+
+    console.log("Changed from String to Array ==>",words)
+    console.log ("Number of Words present in Array ==>" , words.length)
+
+
 
 
 
