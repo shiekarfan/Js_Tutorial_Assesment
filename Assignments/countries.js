@@ -1,8 +1,9 @@
-let Countries_array = ["China", "India", "UnitedStates", "Indonesia", "Pakistan", "Brazil", "Nigeria", "Bangladesh", "Russia", "Mexico", "Japan", "Ethiopia"]
+let Countries_array = ["China", "India", "UnitedStates", "Indonesia", "Pakistan", "Brazil", "Nigeria", "Bangladesh", "Russia", "Mexico", "Japan","Ethiopia"]
 let country =prompt("Enter the Country Name :");
 
-if (country==Countries_array && Countries_array=="Ethiopia"){
-    console.log ("The entered Country Name is exist in the List")
+if (country == 'Ethiopia' && country == Countries_array){
+    console.log ("The entered Country Name is exist in the List" ,Countries_array)
+
 }
 else {
     Countries_array.push("Ethiopia") == country
