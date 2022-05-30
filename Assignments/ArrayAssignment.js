@@ -77,7 +77,7 @@
 
     // let Filter = Company_Array1.toString()
      
-    // console.log (Filter.match("oo"))
+    // console.log (Filter.match("o"))
 
 
 //10. Sort the array using _sort()_ method
