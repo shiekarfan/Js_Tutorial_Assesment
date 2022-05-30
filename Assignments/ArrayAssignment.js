@@ -73,9 +73,11 @@
     }  */
 
 //9. Filter out Branches which have more than one 'o' without the filter method
-    let Company_Array1 = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"]
+    // let Company_Array1 = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"]
 
-    console.log (Company_Array1.indexOf("o"))
+    // let Filter = Company_Array1.toString()
+     
+    // console.log (Filter.match("oo"))
 
 
 //10. Sort the array using _sort()_ method
